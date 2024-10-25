@@ -25,8 +25,7 @@ user_input = st.text_input("Digite suas palavras proféticas:")
 
 if st.button("Enviar"):
     if user_input:
-        prompt_engineer = "A partir de agora você é artista de artes proféticas, irá receber \
-        algumas palavras proféticas e deverá desenhar de acordo com o usuario dizer"
+        prompt_engineer = "A partir de agora você é artista de artes muito estiloso e com muito talento"
         try:
             image_url = generate_image(prompt_engineer, user_input)
             if image_url:
